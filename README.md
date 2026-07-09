@@ -1,2 +1,5 @@
-# useReduce
-Created with CodeSandbox
+### 📝 Refactorisation d'un état complexe avec useReducer : Migration d'un plan de voyage
+
+- **Problème résolu :** Refactorisation d'un composant de plan de voyage utilisant `useState` avec des mises à jour d'état profondément imbriquées vers une approche `useReducer`. La gestion des ajouts, modifications et suppressions de lieux dans une structure arborescente complexe devenait difficile à maintenir avec `useState` à cause de l'imbrication profonde des données et de la duplication des objets lors des mises à jour.
+- **Compétence acquise :** Maîtrise de l'utilisation de `useReducer` pour centraliser et simplifier la logique de mise à jour d'états complexes. Compréhension des avantages d'un reducer : regroupement de toute la logique de mise à jour en un seul endroit, actions claires et prévisibles, et meilleure maintenabilité pour les structures de données imbriquées ou les transitions d'état multiples.
+- **Lien vers le code :** [Cliquez ici pour voir la documentation sur useReducer](https://fr.react.dev/learn/extracting-state-logic-into-a-reducer)
